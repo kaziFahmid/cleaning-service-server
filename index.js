@@ -370,7 +370,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Cleaning service server')
 })
 
 app.listen(port, () => {
